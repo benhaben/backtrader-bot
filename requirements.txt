@@ -1,8 +1,8 @@
 backtrader==1.9.76.123
-matplotlib==3.3.3
+matplotlib==3.2.2
 cryptocmd==0.6.0
-pandas==1.2.0
+pandas==2.2.0
 termcolor==1.1.0
 PyYAML==5.3.1
-git+git://github.com/Dave-Vallance/bt-ccxt-store@master#bt-ccxt-store
-requests==2.21.0
+git+https://github.com/Dave-Vallance/bt-ccxt-store.git
+requests==2.30.0
