@@ -4,7 +4,7 @@ PRODUCTION = "production"
 DEVELOPMENT = "development"
 
 COIN_TARGET = "BTC"
-COIN_REFER = "USDT"
+COIN_REFER = "BNB"
 
 ENV = os.getenv("ENVIRONMENT", PRODUCTION)
 DEBUG = True
