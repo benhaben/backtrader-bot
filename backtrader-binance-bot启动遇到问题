@@ -1,0 +1,14 @@
+第一步：安装python 配置环境变量
+第二步：修改git仓库为https获取
+第三步，viostio的安装，解决pyproject问题
+第四步：调试requirements里的一些包的版本
+第五步：修改C:\Users\leolj\AppData\Local\Programs\Python\Python312\Lib\site-packages\backtrader\plot\locator.py文件的两处代码
+		去掉warnings
+		添加import warnings
+		
+		#locator.set_view_interval(*self.axis.get_view_interval())
+        #locator.set_data_interval(*self.axis.get_data_interval())
+        
+        # 更改后
+        locator.axis.set_view_interval(*self.axis.get_view_interval())  
+        locator.axis.set_data_interval(*self.axis.get_data_interval())
